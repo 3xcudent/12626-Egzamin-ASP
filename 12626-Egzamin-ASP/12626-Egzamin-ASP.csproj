@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_12626_Egzamin_ASP</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.13" />
+  </ItemGroup>
+
+</Project>

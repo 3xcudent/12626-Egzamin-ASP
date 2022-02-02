@@ -1,0 +1,33 @@
+﻿@page
+@model List<_12626_Egzamin_ASP.Models.oceny>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Numer Indeksu</th>
+            <th>Ocena</th>
+            <th>Przedmiot</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @item.NrIndeksu
+                    </td>
+                    <td>
+                        @item.Ocena
+                    </td>
+                    <td>
+                        @item.Przedmiot
+                    </td>
+                </tr>
+                }
+            }
+    </tbody>
+</table>
+
